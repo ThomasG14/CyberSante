@@ -1,0 +1,19 @@
+/*
+
+Color primary: #FFF
+Color secondary: #E9EDFE
+Color Title: #000091
+Color txt: #3C4046
+Colo bgText: #EEEEEE
+
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #FFF !important;
+}
