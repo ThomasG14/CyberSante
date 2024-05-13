@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<header>
+<header class="ms-5 me-5">
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid justify-content-between">
             <a class="navbar-brand" href=""><img src="assets/img/logo.png" alt="" width="180"></a>
@@ -33,38 +33,42 @@
             </div>
         </div>
     </nav>
-
 </header>
 
 
-<main>
-    <section id="def" class="container">
+<main class="container">
+    <h1 class="mb-5">La Cybersécurité</h1>
+    <section id="def" class="container m-3 p-3">
         <h2>Définition</h2>
-        <p>Cybersécurité désigne l'ensemble des pratiques, technologies et processus déployés pour protéger les systèmes
+        <p class="m-3">La cybersécurité désigne l'ensemble des pratiques, technologies et processus déployés pour protéger les systèmes
             informatiques, les réseaux et les données contre les cybermenaces, qu'elles émanent de sources externes ou
             internes. Son objectif est d'assurer la confidentialité, l'intégrité et la disponibilité des informations et
             des ressources numériques d'un État, d'une organisation ou d'une entreprise.</p>
     </section>
-    <section class="container">
-        <h3>Schéma d’une attaque classique</h3>
-        <div class="container d-flex flex-row justify-content-around">
-            <div>Reconnaissance</div>
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            <div>Intrusion</div>
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            <div>Propagation</div>
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            <div>Installation</div>
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            <div>Déclenchement</div>
+
+
+    <section class="container m-3 mt-5 p-3 ">
+        <h2>Schéma classique d’une cyberattaque</h2>
+        <div class="container d-flex flex-row justify-content-around mt-5">
+            <div class="schemaItem one">Reconnaissance</div>
+            <i class="fa fa-arrow-right" style="padding-top: 15px" aria-hidden="true"></i>
+            <div class="schemaItem two">Intrusion</div>
+            <i class="fa fa-arrow-right" style="padding-top: 15px" aria-hidden="true"></i>
+            <div class="schemaItem three">Propagation</div>
+            <i class="fa fa-arrow-right" style="padding-top: 15px" aria-hidden="true"></i>
+            <div class="schemaItem four">Installation</div>
+            <i class="fa fa-arrow-right" style="padding-top: 15px" aria-hidden="true"></i>
+            <div class="schemaItem five">Déclenchement</div>
         </div>
     </section>
 
-    <section id="typeAttaque" class="container">
+    <section id="typeAttaque" class="container m-3 mt-5 p-3">
         <h2>Les types d'attaques</h2>
-        <div class="container d-flex">
-            <div>
-                <h3>Les Botnets</h3>
+
+
+        <div class="container d-flex p-5">
+            <div class="me-5">
+                <h3 class="mb-3">Les Botnets</h3>
                 <p>Un botnet, littéralement un "réseau de robots", est un ensemble d'ordinateurs infectés par des logiciels
                     malveillants et contrôlés à distance par un attaquant, souvent appelé "botmaster" ou "contrôleur".
                     Ces ordinateurs compromis, également appelés "bots" ou "zombies", peuvent être utilisés pour mener
@@ -76,30 +80,38 @@
             </div>
             <img src="assets/img/botnet.png" alt="" width="500">
         </div>
-        <div class="container d-flex">
+
+
+
+
+
+        <div class="container d-flex p-5">
             <img src="assets/img/phishing.png" alt="" width="500">
-            <div>
-                <h3>Le phishing </h3>
+            <div class="ms-5">
+                <h3 class="mb-3">Le phishing </h3>
                 <p>L'hameçonnage, ou phishing, est une technique d'ingénierie sociale utilisée par les cybercriminels pour tromper les utilisateurs et les inciter à divulguer des informations personnelles ou confidentielles telles que des identifiants de connexion, des informations bancaires, des mots de passe, etc. Les attaquants se font passer pour des entités légitimes et de confiance, telles que des institutions financières, des entreprises, ou des services en ligne populaires, afin de convaincre les utilisateurs de fournir leurs informations sensibles. Les attaques de phishing peuvent être menées via des e-mails, des messages texte, des appels téléphoniques ou des sites Web frauduleux, et elles sont souvent utilisées comme point de départ pour des attaques plus sophistiquées telles que le vol d'identité ou le déploiement de logiciels malveillants.</p>
             </div>
         </div>
-        <div class="container d-flex">
-            <div>
-                <h3>Les rançongiciels</h3>
+
+
+        <div class="container d-flex p-5">
+            <div class="me-5">
+                <h3 class="mb-3">Les rançongiciels</h3>
                 <p>Les rançongiciels, également connus sous le nom de ransomwares, sont des programmes malveillants conçus pour chiffrer les données sur l'appareil infecté, rendant ainsi l'accès à ces données impossible pour l'utilisateur légitime. Les attaquants exigent ensuite le paiement d'une rançon en échange de la clé de déchiffrement nécessaire pour restaurer l'accès aux fichiers. Les rançongiciels peuvent se propager via des pièces jointes malveillantes, des liens infectés, des sites Web compromis ou des vulnérabilités logicielles. Les cibles des attaques de ransomwares vont des utilisateurs individuels aux grandes entreprises et même aux établissements de santé, où la perte d'accès aux données critiques peut avoir des conséquences dévastatrices.</p>
             </div>
             <img src="assets/img/ransomware.png" alt="" width="500">
         </div>
 
-        <div class="container">
-            <h3>Les risques encourus</h3>
-            <ul>
-                <li>Fuite de données médicales des patients, pouvant entraîner une usurpation d’identité.</li>
-                <li>Diminution de l’activité de certains services médicaux en raison d'une interruption des systèmes informatiques.</li>
-                <li>Incapacité de visualisation des données médicales nécessaires à la prise en charge des patients.</li>
-                <li>Risque majeur de décès des patients en urgences vitales, dû à des retards ou des erreurs dans les soins liés à l'indisponibilité des données médicales ou des systèmes informatiques.</li>
-            </ul>
-        </div>
+    </section>
+
+    <section class="container container-risque m-3 mt-5 p-3">
+        <h3>Les risques encourus</h3>
+        <ul>
+            <li>Fuite de données médicales des patients, pouvant entraîner une usurpation d’identité.</li>
+            <li>Diminution de l’activité de certains services médicaux en raison d'une interruption des systèmes informatiques.</li>
+            <li>Incapacité de visualisation des données médicales nécessaires à la prise en charge des patients.</li>
+            <li>Risque majeur de décès des patients en urgences vitales, dû à des retards ou des erreurs dans les soins liés à l'indisponibilité des données médicales ou des systèmes informatiques.</li>
+        </ul>
     </section>
 
 

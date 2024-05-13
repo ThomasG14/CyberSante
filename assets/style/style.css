@@ -12,8 +12,69 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Trebuchet MS";
+}
+
+h1,
+h2,
+h3,
+h4
+{
+    color: #000091;
+}
+
+p{
+    color: #3C4046;
+    text-align: justify;
 }
 
 .navbar{
     background-color: #FFF !important;
+}
+
+#def{
+    background-color: #E9EDFE;
+}
+
+#typeAttaque{
+    background-color: #EEEEEE;
+}
+
+.container-risque{
+    background-color: #E9EDFE;
+
+}
+
+.schemaItem
+{
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.one
+{
+    background-color: #428538;
+    color: white;
+}
+.two
+{
+    background-color: #e8a143;
+    color: white;
+}
+.three
+{
+    background-color: #cc43e8;
+    color: white;
+}
+.four
+{
+    background-color: #4393e8;
+    color: white;
+}
+.five
+{
+    background-color: #e84343;
+    color: white;
 }
