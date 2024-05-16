@@ -27,6 +27,10 @@ p{
     color: #3C4046;
     text-align: justify;
 }
+li{
+    color: #3C4046;
+    text-align: justify;
+}
 
 .navbar{
     background-color: #FFF !important;
@@ -38,6 +42,15 @@ p{
 
 #typeAttaque{
     background-color: #EEEEEE;
+}
+
+#secureyourself
+{
+    background-color: #EEEEEE;
+}
+
+#ptsurveil{
+    background-color: #E9EDFE;
 }
 
 .container-risque{
